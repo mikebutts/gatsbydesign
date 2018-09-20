@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Card from '../components/Cards';
+import Section from '../components/Section';
 
 const IndexPage = () => (
   <div>
@@ -11,12 +12,12 @@ const IndexPage = () => (
         <p> Web Developer </p>
         <Link to="/video">Watch the video</Link>
         <div className="Logos">
-          <img src={require('../images/logo-sketch.png')} width="50" />
-          <img src={require('../images/logo-figma.png')} width="50" />
-          <img src={require('../images/logo-studio.png')} width="50" />
-          <img src={require('../images/logo-framer.png')} width="50" />
+          <img src={require('../images/logo-html.png')} width="50" />
+          <img src={require('../images/logo-css.png')} width="50" />
+          <img src={require('../images/logo-wordpress.png')} width="50" />
+          <img src={require('../images/logo-rails.png')} width="50" />
           <img src={require('../images/logo-react.png')} width="50" />
-          <img src={require('../images/logo-swift.png')} width="50" />
+          <img src={require('../images/logo-php.png')} width="50" />
         </div>
         <svg width="100%" height="172" viewBox="0 0 100% 172" fill="none">
           <path fill="orange">
@@ -54,6 +55,12 @@ const IndexPage = () => (
             image={require('../images/wallpaper4.jpg')} />
       </div>
   </div>
+
+  <Section
+    image={require('../images/wallpaper2.jpg')}
+    logo={require('../images/logo-react.png')}
+    title="React for Designers"
+    text="Learn how to build a modern site using React and the most efficient libraries to get your site/product online. Get familiar with components, Grid CSS, animations, interactions, dynamic data with Contentful and deploying your site with Netlify." />
   </div>
 )
 
