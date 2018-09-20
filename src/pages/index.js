@@ -25,20 +25,20 @@ const IndexPage = () => (
     </div>
 </div>
   <div className ="Cards">
-      <h2> Some PRojects </h2>
+      <h2> Projects </h2>
       <div className="CardGroup">
           <Card 
-            title="DesignSystem"
-            text="10 sections"
-            image={require('../images/wallpaper.jpg')} />
+            title="Jessica Photography"
+            text="Photography Website"
+            image={require('../images/jwright.png')} />
           <Card 
-            title="React for Designers"
-            text="11 sections"
-            image={require('../images/wallpaper2.jpg')} />
-          <Card 
-            title="Sound Design"
-            text="5 sections"
+            title="Codelegy"
+            text="Learn. Code. Socially."
             image={require('../images/wallpaper3.jpg')} />
+          <Card 
+            title="That Disney Dad"
+            text="Wordpress family blog"
+            image={require('../images/disney.png')} />
           <Card 
             title="ARKit 2"
             text="10 sections"
@@ -48,7 +48,7 @@ const IndexPage = () => (
 
   <Section
     image={require('../images/wallpaper2.jpg')}
-    logo={require('../images/logo-react.png')}
+    logo={require('../images/myoiledpic.png')}
     title="Passion to Create"
     text="Since code is a usable art, a whole team of people are connected to the practice. From the client to the account managers, and including the business people, finance, the support team, QA team, designers, product managers and project managers. Code touches every single person in the organization and makes a difference to every single user that touches it (for good or bad)." />
   </div>

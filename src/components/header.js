@@ -30,7 +30,7 @@ class header extends Component {
       <div>
       <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>  
         <div className="HeaderGroup">
-            <Link to="/"><img src={require('../images/logo-designcode.svg')} wdth="30"/></Link>
+            <Link to="/"><img src={require('../images/x.png')} width="30"/></Link>
             <Link to="/courses">Home</Link>
             <Link to="/courses">Projects</Link>
             <Link to="/courses">Contact</Link>
